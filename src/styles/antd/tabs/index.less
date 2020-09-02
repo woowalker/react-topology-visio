@@ -1,0 +1,16 @@
+@tab-prefix-cls: ~'@{ant-prefix}-tabs';
+
+.@{tab-prefix-cls} {
+  &-tab {
+    margin-right: 8px;
+  }
+
+  &-small {
+    & > .@{tab-prefix-cls}-nav {
+      .@{tab-prefix-cls}-tab {
+        padding: 8px;
+        font-size: 12px;
+      }
+    }
+  }
+}

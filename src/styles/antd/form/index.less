@@ -1,0 +1,23 @@
+@form-prefix-cls: ~'@{ant-prefix}-form';
+@form-item-prefix-cls: ~'@{form-prefix-cls}-item';
+
+.@{form-item-prefix-cls} {
+  margin-bottom: 8px;
+  
+  // ==============================================================
+  // =                            Label                           =
+  // ==============================================================
+  &-label {
+    > label {
+      font-size: 12px;
+    }
+  }
+}
+
+.@{form-prefix-cls}-vertical {
+  .@{form-item-prefix-cls} {
+    &-label {
+      padding: 0 0 4px 0;
+    }
+  }
+}

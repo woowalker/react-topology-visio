@@ -1,0 +1,31 @@
+.display-none {
+  display: none !important;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+// padding
+.loop(@start: 0, @total: 30, @step: 5, @unit: px, @selector: pd, @prefix: ~"", @property: padding);
+// padding-top
+.loop(@start: 0, @total: 30, @step: 5, @unit: px, @selector: pd, @prefix: t, @property: padding-top);
+// padding-right
+.loop(@start: 0, @total: 30, @step: 5, @unit: px, @selector: pd, @prefix: r, @property: padding-right);
+// padding-bottom
+.loop(@start: 0, @total: 30, @step: 5, @unit: px, @selector: pd, @prefix: b, @property: padding-bottom);
+// padding-left
+.loop(@start: 0, @total: 30, @step: 5, @unit: px, @selector: pd, @prefix: l, @property: padding-left);
+// margin
+.loop(@start: 0, @total: 100, @step: 1, @unit: px, @selector: mg, @prefix: ~"", @property: margin);
+// margin-top
+.loop(@start: 0, @total: 30, @step: 5, @unit: px, @selector: mg, @prefix: t, @property: margin-top);
+// margin-right
+.loop(@start: 0, @total: 30, @step: 5, @unit: px, @selector: mg, @prefix: r, @property: margin-right);
+// margin-bottom
+.loop(@start: 0, @total: 30, @step: 5, @unit: px, @selector: mg, @prefix: b, @property: margin-bottom);
+// margin-left
+.loop(@start: 0, @total: 30, @step: 5, @unit: px, @selector: mg, @prefix: l, @property: margin-left);
+
+// font-size
+.loop(@start: 12, @total: 36, @step: 1, @unit: px, @selector: fz, @prefix: ~"", @property: font-size);

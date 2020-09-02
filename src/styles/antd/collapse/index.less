@@ -1,0 +1,17 @@
+@collapse-prefix-cls: ~'@{ant-prefix}-collapse';
+
+.@{collapse-prefix-cls} {
+  background-color: transparent;
+  & > &-item {
+    > .@{collapse-prefix-cls}-header {
+      padding: 8px 4px;
+      font-size: 12px;
+    }
+  }
+
+  &-content {
+    & > &-box {
+      padding: 8px;
+    }
+  }
+}
